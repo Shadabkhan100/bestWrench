@@ -1,0 +1,61 @@
+[
+  {
+    "id":1,
+    "title": "Beautiful Sunset",
+    "image": "https://example.com/images/sunset.jpg",
+    "description": "A breathtaking view of the sun setting over the horizon."
+  },
+  {
+    "id":2,
+    "title": "Mountain Adventure",
+    "image": "https://example.com/images/mountain.jpg",
+    "description": "Embark on an exciting journey to conquer the tallest mountains."
+  },
+  {
+    "id":3,
+    "title": "Exotic Cuisine",
+    "image": "https://example.com/images/food.jpg",
+    "description": "Indulge in a culinary delight with a variety of exotic dishes."
+  },
+  {
+    "id":4,
+    "title": "Urban Exploration",
+    "image": "https://example.com/images/city.jpg",
+    "description": "Navigate through bustling streets and explore the heart of the city."
+  },
+  {
+    "id":5,
+    "title": "Tranquil Beach",
+    "image": "https://example.com/images/beach.jpg",
+    "description": "Relax on soft sands and enjoy the calming sounds of ocean waves."
+  },
+  {
+    "id":6,
+    "title": "Enchanting Forest",
+    "image": "https://example.com/images/forest.jpg",
+    "description": "Get lost in the enchantment of ancient trees and vibrant flora."
+  },
+  {
+    "id":7,
+    "title": "Historical Wonders",
+    "image": "https://example.com/images/history.jpg",
+    "description": "Uncover the stories behind historical landmarks and cultural sites."
+  },
+  {
+    "id":8,
+    "title": "Artistic Expression",
+    "image": "https://example.com/images/art.jpg",
+    "description": "Immerse yourself in the world of art, creativity, and self-expression."
+  },
+  {
+    "id":9,
+    "title": "Wildlife Safari",
+    "image": "https://example.com/images/safari.jpg",
+    "description": "Embark on a thrilling safari to witness majestic wildlife in their natural habitat."
+  },
+  {
+    "id":19,
+    "title": "Serene Lakeside",
+    "image": "https://example.com/images/lake.jpg",
+    "description": "Find serenity by a pristine"
+  }]

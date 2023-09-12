@@ -1,0 +1,19 @@
+.Myheader {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgba(2, 171, 89, 0.62);
+    height: fit-content;
+}
+.Myheader .sider img{
+     margin: 6rem .2rem;
+}
+@media only screen and (max-width:1269px) {
+    .Myheader .sider img{
+     display: none;
+    }
+        .Myheader {
+            padding: 1rem;
+        }
+}

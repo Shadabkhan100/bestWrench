@@ -1,0 +1,14 @@
+.card{
+    padding: 2rem;
+}
+.card form .myIn{
+    height: 3rem;
+}
+@media only screen  and (max-width:505px){
+    .card {
+            padding: 0rem;
+        }
+        .myIn{
+            height: 1rem;
+        }
+}

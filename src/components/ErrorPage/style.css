@@ -1,0 +1,19 @@
+.ErrorPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+     margin: auto;
+     margin-top: 20%;height: 10rem;
+}
+.ErrorPage h1{
+   color: rgb(4, 148, 105);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.ErrorPage Button {
+    
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}

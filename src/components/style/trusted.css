@@ -1,0 +1,18 @@
+#trust_head{
+    background-color: rgba(179, 177, 177, 0.527);
+    
+}
+ #trust_head .text-center img {
+    margin-left: 50%;
+ }
+@media only screen and (max-width:1228px) {
+    #trust_head .text-center img {
+        height: 6rem;width: 100%;padding: .3rem;margin-left: 0%;
+    }
+        #trust_head .text-center h1 {
+            padding: .3rem;
+        }
+        
+}
+
+

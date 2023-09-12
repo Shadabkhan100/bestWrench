@@ -1,0 +1,32 @@
+#components-dropdown-demo-arrow-center .ant-btn {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.ant-row-rtl #components-dropdown-demo-arrow-center .ant-btn {
+    margin-right: 0;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.NaveLink{
+    font-size: 1.3rem;text-decoration: none;
+}
+.NaveLink:hover{
+    background-color: rgba(1, 255, 132, 0.629);color: black;
+}
+.container-fluid .image{
+    padding: 0rem;
+}
+@media only screen and (max-width:609px){
+    .container-fluid .image {
+        margin-top: 1rem;
+        }
+          
+}
+.notfication{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.notfication:hover{
+  color: white;
+}

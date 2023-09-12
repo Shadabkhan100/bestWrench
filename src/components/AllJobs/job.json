@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "location": "New York, USA",
+      "total_duration": "6 months",
+      "skills": ["JavaScript", "React", "Node.js"],
+      "expertise": "Web Development"
+    },
+    {
+      "title": "Project 2",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "location": "San Francisco, USA",
+      "total_duration": "9 months",
+      "skills": ["Python", "Django", "PostgreSQL"],
+      "expertise": "Backend Development"
+    },
+    {
+      "title": "Project 3",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "location": "London, UK",
+      "total_duration": "1 year",
+      "skills": ["Java", "Android", "Kotlin"],
+      "expertise": "Mobile App Development"
+    },
+    {
+      "title": "Project 4",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "location": "Berlin, Germany",
+      "total_duration": "8 months",
+      "skills": ["Ruby", "Ruby on Rails", "PostgreSQL"],
+      "expertise": "Full-Stack Development"
+    },
+    {
+      "title": "Project 5",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "Tokyo, Japan",
+      "total_duration": "10 months",
+      "skills": ["Swift", "iOS", "Objective-C"],
+      "expertise": "iOS App Development"
+    },
+    {
+      "title": "Project 6",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "location": "Sydney, Australia",
+      "total_duration": "7 months",
+      "skills": ["JavaScript", "Vue.js", "Node.js"],
+      "expertise": "Frontend Development"
+    },
+    {
+      "title": "Project 7",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "location": "Toronto, Canada",
+      "total_duration": "1 year",
+      "skills": ["Python", "Flask", "MongoDB"],
+      "expertise": "Web Development"
+    },
+    {
+      "title": "Project 8",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "location": "Paris, France",
+      "total_duration": "11 months",
+      "skills": ["Java", "Spring Boot", "MySQL"],
+      "expertise": "Backend Development"
+    },
+    {
+      "title": "Project 9",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "location": "Madrid, Spain",
+      "total_duration": "9 months",
+      "skills": ["React Native", "Firebase"],
+      "expertise": "Mobile App Development"
+    },
+    {
+      "title": "Project 10",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "Seoul, South Korea",
+      "total_duration": "1 year",
+      "skills": ["Python", "Django", "Vue.js"],
+      "expertise": "Full-Stack Development"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+.flex-cat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.Card .Box {
+  border-radius: 30px;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  background-color: rgb(255, 255, 255);
+  padding: .7rem;
+  height: fit-content;
+  width: 450px;
+  box-shadow: 1px 2px 8px 10px rgba(98, 99, 98, 0.562);
+}
+.filter{
+  width: 20%;border-radius: 20px;margin-top: -10rem;margin-left: 2rem;
+}
+.filter Option:hover{
+  background-color: rgba(0, 255, 145, 0.398);
+}
+@media only screen and (max-width:926px){
+  .filter{
+    width: 40%;
+  }
+}
+.flex-box img {
+  height: 150px;
+  width: 100%;
+  border-bottom-left-radius: 80px;
+}
+
+@media only screen and (max-width: 745px) {
+  .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+@media only screen and (max-width: 485px) {
+  .Card .Box{
+    width: 290px;
+  }
+
+}
+@media only screen and (max-width: 309px) {
+  .Card .Box {
+    width: 220px;
+  }
+
+}
+@media only screen and (max-width: 900px) {
+
+  .flex-box {
+    width: 280px;
+    height: 250px;
+    background-color: rgb(60, 225, 57);
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  .flex-box {
+    align-items: left;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(60, 225, 57);
+    margin: 12px -15px;
+  }
+}
+
+@media only screen and (max-width:1173px) {
+  .flex-box {
+    align-items: center;
+    width: 220px;
+  }
+}

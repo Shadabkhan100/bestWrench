@@ -1,0 +1,240 @@
+.Myheader {
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(12, 155, 79);
+    height: 100vh;
+}
+
+.Myheader .title {
+    max-width: 100%;
+    color: #ffffff;
+}
+
+ .imagePost {
+     height: 4rem;
+     width: 10rem;
+ }
+@media only screen and (max-width:1452px) {
+    .Myheader .title .search {
+        height: 3.2rem;
+        width: 45rem;
+    }
+}
+@media only screen and (max-width:792px) {
+    .imagePost {
+        height: 4rem;
+        width: 10rem;
+    }
+}
+
+.Myheader .Modal {
+    background-color: black;
+}
+
+@keyframes TextEnimation {
+    from {
+        transform: translateY(-300px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.Myheader .title .RegisterButton {
+    background-color: rgb(5, 191, 73);
+}
+
+.Myheader h1 {
+    width: 100%;
+    animation-name: TextEnimation;
+    animation-duration: 2s;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.Myheader .image {
+    height: 500px;
+    width: 500px;
+    background: url('/public/header.png')
+    /* transform-origin: top left; */
+}
+
+
+
+@media only screen and (max-width:1228px) {
+    .Myheader .image {
+        display: none;
+
+
+    }
+}
+
+
+@media only screen and (max-width:726px) {
+    .Myheader .sider {
+        flex-direction: column;
+        padding: 1rem 0rem;
+    }
+
+    .Myheader h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 602px) {
+    .Myheader {
+        background-color: rgb(12, 155, 79);
+        background-size: cover;
+        height: 100vh;
+        padding: 1rem 1rem;
+    }
+
+    .Myheader .title {
+        max-width: 100%;
+        color: #ffffff;
+    }
+
+    .Myheader .title .search {
+        height: 3.2rem;
+        max-width: 100%;
+    }
+
+    .Myheader .image {
+        height: 0px;
+        width: 0px;
+        border-radius: 0rem solid black;
+        margin: 0rem;
+        background: url('/src/components/image.jpg');
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: 13px 1px 12px 4px rgb(105, 159, 109);
+        /* transform-origin: top left; */
+    }
+
+}
+
+.Myheader .sider {
+    flex-direction: column;
+    padding: 1rem 0rem;
+    margin-right: 4rem;
+}
+
+@media only screen and (max-width:580px) {
+    .Myheader .sider {
+        flex-direction: column;
+        padding: 2rem 0rem;
+    }
+
+    .Myheader h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.Myheader .Modal {
+    background-color: black;
+}
+
+@media only screen and (max-width:1158px) {
+    .Myheader .image {
+        background: none;
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: none;
+    }
+
+    .Myheader .sider {
+        flex-direction: column;
+        padding: 1rem 4rem;
+        margin-right: 4rem;
+    }
+
+    .Myheader .title {
+        margin-top: 6rem;
+        max-width: 100%;
+        color: #ffffff;
+    }
+
+    .Myheader .title .search {
+        height: 3.2rem;
+        max-width: 100%;
+    }
+}
+
+/* @keyframes myEnimation{
+    from {background-color: (60, 225, 57);}
+    to {background-color: rgb(43, 136, 41);}
+} */
+@keyframes myEnimation {
+    0% {
+        background-color: (60, 225, 57);
+    }
+
+    25% {
+        background-color: rgb(43, 136, 41);
+    }
+
+    50% {
+        background-color: rgb(136, 77, 41);
+    }
+
+    100% {
+        background-color: rgb(73, 41, 136);
+    }
+}
+
+@keyframes textEnimation {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 200px;
+        right: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}

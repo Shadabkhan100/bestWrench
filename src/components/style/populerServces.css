@@ -1,0 +1,91 @@
+.flex-Con{
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+     
+}
+.flex-Con::-webkit-scrollbar {
+    width: 0px;
+}
+.Card .Product {
+   
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 4rem 3rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 12px 10px;
+    
+    height: fit-content;
+    width: 400px;
+    box-shadow: 1px 4px 8px 10px #4d4a4a96;
+}
+
+
+.flex-box img {
+    height: 150px;
+    width: 100%;
+    border-bottom-left-radius: 80px;
+}
+
+
+@media only screen and (max-width: 745px) {
+    .Card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .flex-box {
+        width: 280px;
+        height: 250px;
+        background-color: rgb(60, 225, 57);
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width: 461px) {
+    .flex-box {
+        align-items: left;
+        width: 280px;
+        height: 250px;
+        background-color: rgb(60, 225, 57);
+        margin: 12px -15px;
+    }
+}
+
+@media only screen and (max-width:1173px) {
+    .flex-box {
+        align-items: center;
+        width: 220px;
+    }
+}
+
+
+
+
+/* Add these styles to your existing CSS */
+
+.scroll-arrows {
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.left-arrow {
+    margin-right: 1rem;
+   
+}
+
+.right-arrow {
+    margin-left: 1rem;
+    font-size: 3rem;
+}

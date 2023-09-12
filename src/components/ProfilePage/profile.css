@@ -1,0 +1,13 @@
+.saved-products{
+    padding: 3rem;
+}
+@media only screen and (max-width:1080px){
+    .saved-products {
+            padding: 0rem;
+        }
+}
+@media only screen and (max-width:767px) {
+    .saved-products {
+        padding: 3rem;
+    }
+}
